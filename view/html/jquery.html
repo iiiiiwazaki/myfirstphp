@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>jqueryの学習</title>
+    <link rel="stylesheet" type="text/css" href="../css/jquery.css" media="all">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    
+    <textarea id="post_textbox"></textarea>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <button id="aaa">ボタン</button>
+ 
+<script>
+    $('body').on('keydown', function(e) {
+        if(e.keyCode === 13) {
+ 
+            $('#aaa').trigger('click');
+ 
+        }
+    })
+ 
+ 
+    $('button').on('click',function(){
+         console.log('hogehoge');
+    })
+</script>
+    <script type="text/javascript" src="../js/test_jquery.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+{
+    "data": [{
+        "jobId" : 1,
+        "jobName" : "Police",
+        "grpId" : 1
+    },
+    {
+        "jobId" : 2,
+        "jobName" : "Firefighter",
+        "grpId" : 1
+    },
+    {
+        "jobId" : 3,
+        "jobName" : "Doctor",
+        "grpId" : 2
+    },
+    {
+        "jobId" : 4,
+        "jobName" : "Nurse",
+        "grpId" : 2
+    },
+    {
+        "jobId" : 5,
+        "jobName" : "Dentist",
+        "grpId" : 2
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+.wrap{
+  background-color: rgb(241, 241, 119);
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.boxA {
+  height: 140px;
+  width: 140px;
+  margin: 8px;
+  background-color: red;
+  float: left; /* 要素を左寄せにする  */
+}
+
+.boxB {
+  height: 140px;
+  width: 140px;
+  margin: 8px;
+  background-color: blue;
+  float: left; /* 要素を左寄せにする  */
+}
+
+.footer {
+  height: 200px;
+  background-color: rgba(129, 253, 145, 0.867);
+}
